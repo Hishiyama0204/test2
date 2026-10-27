@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../script.js" defer></script>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script>
+        dayjs().format()
+    </script>
+
+    <title>learning_log</title>
+</head>
+
+<body>
+    <header>
+        <div class="row_header">
+            <button onclick="location.href='../home.html'" class="bottan">戻る</button>
+            <span class="title">学習記録</span>
+        </div>
+
+    </header>
+    <div id="center">
+        <div id="right">
+            <div class="smallbox">学習科目
+            </div>
+            <input type="text" id="category" name="category" class="textBox3"><br>
+        </div>
+
+        <input type="button" value="学習開始" id="click-btn-leraning" class="box1"></input>
+    </div>
+</body>
+
+</html>
